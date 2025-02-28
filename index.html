@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/moataz.png" alt="Moataz Hassan" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="#About">Moataz Hassan</h1>
+
+          <p class="title">Mechatronics & AI Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:moatazhassanabdelazizmohamed@gmail.com" class="contact-link">Moataz@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+201119772061" class="contact-link">+201119772061</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2001-09-29">sep 29, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Sinnuris, fayoum, Egypt</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/profile.php?id=100023168256487&locale=ar_AR" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/motaz_elroby/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/moataz-hassan-770705239/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Moataz-Elroby" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.kaggle.com/moatazhassan" class="social-link">
+              <ion-icon name="code-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a Robotics Engineer and AI Developer, specializing in automation, 
+            embedded systems, and computer vision. With expertise in autonomous robots, 
+            artificial intelligence, and adaptive testing solutions, 
+            I strive to turn engineering challenges into smart and practical solutions.
+          </p>
+
+          <p>
+            My goal is to develop advanced robotic systems that combine efficiency, 
+            precision, and ease of use. 
+            I work on integrating AI with robotics to deliver innovative and effective solutions that enhance industrial processes and drive the adoption of future technologies.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ai2.svg
+                " alt="ai icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI Models</h4>
+
+                <p class="service-item-text">
+                  I develop advanced AI models covering machine learning (ML),
+                   deep learning (DL), computer vision (CV), and natural language processing (NLP), 
+                   along with the latest applications of Generative AI. Whether you need predictive analytics,
+                    recommendation systems, intelligent chatbots, automated content generation, image and video enhancement, 
+                    or text and speech generation models, I deliver cutting-edge solutions that seamlessly integrate with robotics, automation, and embedded systems, 
+                    driving innovation and efficiency in your business.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/robot.svg" alt="Robotic icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Advanced Robotics Development</h4>
+
+                <p class="service-item-text">
+                  I have extensive experience in robot programming using ROS 1 and ROS 2,
+                   along with expertise in CoppeliaSim for robotic simulations. 
+                   My skills include forward and inverse kinematics for modern robots using screw motion and Denavit-Hartenberg (DH) parameters.
+                    Additionally, I specialize in mechanical design for robotic systems using SolidWorks and have a foundational understanding of hydraulic and pneumatic systems.
+                     I am also proficient in G-code and M-code for CNC and automation applications, 
+                     ensuring precise control and seamless integration of robotic solutions.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/Embedded.svg" alt="Embedded icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Embedded Systems & Embedded Linux</h4>
+
+                <p class="service-item-text">
+                  I develop high-performance embedded systems, from simple to complex architectures,
+                   with expertise in C, C++, Embedded C, PIC microcontrollers, and efficient algorithms. 
+                   I also specialize in Linux-based embedded systems, including Linux administration, Yocto, 
+                   Ruby, device drivers, Raspberry Pi, and Bash scripting, ensuring robust and scalable solutions
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/Automation.svg" alt="Automation icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Automation PLC & Classic Control Solutions</h4>
+
+                <p class="service-item-text">
+                  I specialize in designing and implementing electrical and industrial automation systems using classic control and PLC programming.
+                   With expertise in sensors, timers, relays, contactors, circuit protection (overload, circuit breakers), 
+                   and motor drivers, I ensure precise control and safety. I can program any PLC using multiple languages 
+                   like Block Diagram, STL, and more. Additionally, I have experience in SCADA systems and have worked on advanced projects using Factory I/O.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ahmed</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Moataz was hired to develop AI models, and we were very pleased with the work delivered.
+                     He has extensive experience and a strong commitment to meeting client needs,
+                      ensuring advanced and efficient AI and machine learning solutions.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Doaa</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Moataz was hired to develop a robotic solution, and we were very pleased with the work done. 
+                    He has a lot of experience and is very concerned about the needs of the client, 
+                    ensuring advanced and efficient robotics solutions.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mariam</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Moataz was hired to develop an embedded system, and we were very pleased with the work done.
+                     He has a lot of experience and is very concerned about the needs of the client, 
+                     ensuring advanced and efficient embedded solutions.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mohamed</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Moataz was hired to develop an automation solution, and we were very pleased with the work done. 
+                    He has a lot of experience and is very concerned about the needs of the client,
+                     ensuring advanced and efficient automation systems.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Training</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/ITI.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/DEPI.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/ieee.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Ze.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/999.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/HA.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Impact.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const images = document.querySelectorAll(".clients-item img");
+      
+          images.forEach(img => {
+            img.style.width = "100px";  // تحديد العرض الثابت لجميع الصور
+            img.style.height = "100px"; // تحديد الارتفاع الثابت لجميع الصور
+            img.style.objectFit = "contain";  // الاحتفاظ بنسبة العرض إلى الارتفاع
+            img.style.filter = "brightness(1.1)";  // زيادة السطوع قليلاً لتحسين وضوح الألوان
+            img.style.borderRadius = "8px";  // إضافة حواف دائرية إذا أردت شكلًا أنيقًا
+          });
+        });
+      </script>
+      
+    
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor's Degree in Mechatronics Engineering</h4>
+
+              <span>2020 — 2025</span>
+
+              <p class="timeline-text">
+                Earned a Bachelor’s degree from Faculty of Engineering, 
+                Fayoum University, specializing in robotics, AI, and automation.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Advanced Studies in Computer Vision & Embedded Systems</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                Focused on computer vision, embedded systems, and autonomous robotics, 
+                leading to practical applications in robotic arm control and autonomous navigation.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research & Projects in AI and Robotics</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Conducted multiple projects, including AI-driven robotic systems, 
+                adaptive automated testing for web applications, 
+                and digital twins for automotive applications.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AI & Robotics Engineer | Freelance & Research Projects</h4>
+
+              <span>2023 – Present</span>
+
+              <p class="timeline-text">
+                Developed an autonomous delivery robot capable of navigating complex environments.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Computer Vision-Based Robotic Control Systems </h4>
+
+              <span>2024</span>
+
+              <p class="timeline-text">
+                Built real-time human-arm tracking systems for robotic arms, 
+                enabling seamless control and manipulation.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AI Model Development & Automation Solutions</h4>
+
+              <span>2024 – Present</span>
+
+              <p class="timeline-text">
+                Established expertise in AI models, embedded Linux, and automation, 
+                offering customized robotic and automation solutions through a personal website.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">ML</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">DL</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">NLP</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">computer vision</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Embedded system</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Embedded linux</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+         
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Automation</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Robotics</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+      
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>AI Models</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Robotics projects</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Automation & Embedded projects</button>
+            </li>
+          </ul>
+      
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-select-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+      
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>AI Models</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Robotics projects</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Automation & Embedded projects</button>
+              </li>
+            </ul>
+          </div>
+      
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="Automation & Embedded projects">
+              <a href="https://www.linkedin.com/in/moataz-hassan-770705239/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/automation.jpg" alt="washing machine" loading="lazy">
+                </figure>
+                <h3 class="project-title">washing machine</h3>
+                <p class="project-category">Automation & Embedded projects</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="Automation & Embedded projects">
+              <a href="https://www.linkedin.com/in/moataz-hassan-770705239/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/sorting2.jpg" alt="Sorting Techniques in PLC" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sorting Techniques in PLC</h3>
+                <p class="project-category">Automation & Embedded projects</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="AI Models">
+              <a href="https://www.kaggle.com/code/moatazhassan/house-price-prediction">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/House.png" alt="House price prediction" loading="lazy">
+                </figure>
+                <h3 class="project-title">House price prediction</h3>
+                <p class="project-category">AI Models</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="Robotics projects">
+              <a href="https://www.linkedin.com/in/moataz-hassan-770705239/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Tele.png" alt="Teleoperation Robot" loading="lazy">
+                </figure>
+                <h3 class="project-title">Teleoperation Robot</h3>
+                <p class="project-category">Robotics projects</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="AI Models">
+              <a href="https://www.kaggle.com/code/moatazhassan/titanic">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/titanic.png" alt="Titanic Survival Prediction" loading="lazy">
+                </figure>
+                <h3 class="project-title">Titanic Survival Prediction</h3>
+                <p class="project-category">AI Models</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="AI Models">
+              <a href="https://www.kaggle.com/code/moatazhassan/clustring">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Clustring.png" alt="Clustring" loading="lazy">
+                </figure>
+                <h3 class="project-title">Clustring</h3>
+                <p class="project-category">AI Models</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="Automation & Embedded projects">
+              <a href="https://www.linkedin.com/in/moataz-hassan-770705239/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/smart.jpg" alt="Smart Home" loading="lazy">
+                </figure>
+                <h3 class="project-title">Smart Home</h3>
+                <p class="project-category">Automation & Embedded projects</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="Robotics projects">
+              <a href="https://www.linkedin.com/in/moataz-hassan-770705239/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Robot.png" alt="Agricultural Robot" loading="lazy">
+                </figure>
+                <h3 class="project-title">Agricultural Robot</h3>
+                <p class="project-category">Robotics projects</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="Automation & Embedded projects">
+              <a href="https://www.linkedin.com/in/moataz-hassan-770705239/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/door.jpg" alt="Door Locker Security System" loading="lazy">
+                </figure>
+                <h3 class="project-title">Door Locker Security System</h3>
+                <p class="project-category">Automation & Embedded projects</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const filterButtons = document.querySelectorAll("[data-filter-btn]");
+          const filterItems = document.querySelectorAll("[data-filter-item]");
+        
+          filterButtons.forEach((button) => {
+            button.addEventListener("click", function () {
+              // إزالة الكلاس "active" من جميع الأزرار
+              filterButtons.forEach((btn) => btn.classList.remove("active"));
+              this.classList.add("active");
+        
+              const filterValue = this.textContent.trim().toLowerCase();
+        
+              filterItems.forEach((item) => {
+                const category = item.getAttribute("data-category").toLowerCase();
+        
+                if (filterValue === "all" || category.includes(filterValue)) {
+                  item.style.display = "block"; // عرض العنصر
+                } else {
+                  item.style.display = "none"; // إخفاء العنصر
+                }
+              });
+            });
+          });
+        });
+        </script>
+        
+
+      <!--
+        - #BLOG
+      -->
+
+      
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const images = document.querySelectorAll(".project-img img");
+      
+          images.forEach(img => {
+            img.style.width = "100%";
+            img.style.height = "200px";
+            img.style.objectFit = "cover";
+          });
+        });
+      </script>
+      
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.782315246452!2d30.86862032531965!3d29.40592349854252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1459764a35c55efb%3A0x6108b754e7874c36!2z2LPZhtmI2LHYs9iMINmF2K_ZitmG2Kkg2LPZhtmI2LHYs9iMINmF2LHZg9iyINiz2YbZiNix2LPYjCDZhdit2KfZgdi42Kkg2KfZhNmB2YrZiNmF!5e0!3m2!1sar!2seg!4v1740724259131!5m2!1sar!2seg"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
